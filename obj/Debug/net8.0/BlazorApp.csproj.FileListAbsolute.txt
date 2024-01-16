@@ -1029,3 +1029,4 @@ D:\ngomen-academy\BlazorApp\obj\Debug\net8.0\BlazorApp.dll
 D:\ngomen-academy\BlazorApp\obj\Debug\net8.0\refint\BlazorApp.dll
 D:\ngomen-academy\BlazorApp\obj\Debug\net8.0\BlazorApp.pdb
 D:\ngomen-academy\BlazorApp\obj\Debug\net8.0\ref\BlazorApp.dll
+D:\ngomen-academy\BlazorApp\obj\Debug\net8.0\BlazorApp.sourcelink.json

@@ -1,18 +1,23 @@
 ﻿@page "/counter"
 
-<PageTitle>Counter</PageTitle>
+<PageTitle>Penjumlahan</PageTitle>
 
 <h1>Counter</h1>
 
-<p role="status">Current count: @currentCount</p>
+<p role="status">Hasil Penjumlahan : @hasil</p>
+@* pakai bind (binding) biar ke tangkap ke c# nya  *@
+<input type="text" @bind="nilaia">
+<input type="text" @bind="nilaib">
 
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+<button class="btn btn-primary" @onclick="Jumlahkan">Hasil</button>
 
 @code {
-    private int currentCount = 0;
-
-    private void IncrementCount()
+    private int nilaia;
+    private int nilaib;
+    private int hasil;
+    private void Jumlahkan()
     {
-        currentCount++;
+        hasil = nilaia + nilaib;
     }
 }
